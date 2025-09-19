@@ -19,6 +19,7 @@ double calcularMagnitud(Point p1)
  float x1 = p1.x;
  float y1 = p1.y;
  float mag;
+    
 
  mag = sqrt(pow(x1,2) + pow(y1,2));
     return mag;
